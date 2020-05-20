@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+    background-size: cover;
+}
+html{
+    font-size: 10px;
+}
+#names{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;  
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: .5rem;
+    outline:none;
+    background-color:#e7daf2;
+}
+#p1{
+    margin-right: .2rem;
+}
+.flames-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+#f,#l,#m,#a,#e,#s{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 3rem;
+    border-radius: 100%;
+    border: 0.05rem solid black;
+    text-align: center;
+    background-color: #ffd6f8;
+    width: 7rem;
+    height: 7rem;
+    outline: none;
+}
+#f{
+    animation: bounce 1s ease-out;
+}
+#l{
+    animation: bounce 1.2s ease-out;
+}
+#a{
+    animation: bounce 1.4s ease-out;
+}
+#m{
+    animation: bounce 1.6s ease-out;
+}
+#e{
+    animation: bounce 1.8s ease-out;
+}
+#s{
+    animation: bounce 2s ease-out;
+}
+@keyframes bounce{
+    0%{
+        opacity: 0;
+        transform: translateY(-12rem);
+    }
+    80%{
+        opacity: 1;
+        transform: translateY(1.5rem);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+nav{
+    margin-left: 25%;
+    margin-top: 1rem;
+    margin-right: 25%;
+    display: flex;
+    width: 50%;
+}
+#cal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    border-radius: 3rem;
+    padding: 10px 0;
+    background-color: #d0cfd1;
+	text-align: center;
+    width: 50%;
+    margin-right: .5rem;
+    outline: none;
+    box-shadow: .1rem .2rem skyblue;
+    transition: all 1s;
+    margin-bottom: 10vh;
+}
+
+#reload{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    border-radius: 3rem;
+    padding: 10px 0;
+    background-color: #d0cfd1;
+	text-align: center;
+    width: 50%;
+    outline: none;
+    box-shadow: .1rem .2rem skyblue;
+    transition: all 1s;
+    margin-bottom: 10vh;
+}
+#cal:hover{
+    transform: scaleX(1.04);
+}
+#reload:hover{
+    transform: scaleX(1.04);
+}
