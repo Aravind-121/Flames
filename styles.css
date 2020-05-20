@@ -94,6 +94,7 @@ nav{
     outline: none;
     box-shadow: .1rem .2rem skyblue;
     transition: all 1s;
+    margin-bottom: 10vh;
 }
 
 #reload{
@@ -106,6 +107,7 @@ nav{
     outline: none;
     box-shadow: .1rem .2rem skyblue;
     transition: all 1s;
+    margin-bottom: 10vh;
 }
 #cal:hover{
     transform: scaleX(1.04);
